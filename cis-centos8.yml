@@ -1,0 +1,12 @@
+---
+- hosts:  all
+  # become: yes
+  # become_method: sudo
+  # gather_facts: true
+  # vars:
+  #   ignore_errors: true
+  #   ignore_unreachable: true
+  roles:
+    - cis-centos8
+  skip-tags:
+    - rule_1.1.1.2
