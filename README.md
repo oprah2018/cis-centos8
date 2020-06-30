@@ -1,7 +1,7 @@
 # cis-centos8
 
 Prereqisition
- * [install ansible]
+ * [install ansible](https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html)
  * make sure your ssh connections to your cluster are available
 
 ```
